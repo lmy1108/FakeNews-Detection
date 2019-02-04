@@ -69,11 +69,11 @@ df['text'] = df.apply(text_execute,axis=1)
 
 <img src="picture/ensemble.png">
 
-<img src="picture/clean.png">
+<img src="picture/clean.PNG">
 
-<img src="picture/title.png">
+<img src="picture/title.PNG">
 
-<img src="picture/feature.png">
+<img src="picture/feature.PNG">
 
 TextBlob is a Python (2 and 3) library for processing textual data. It provides a simple API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, classification, translation, and more.
 Here we use textblob for sentiment analysis, and the range of polarity is -1 to 1, the range of subjectivity is from 0 to 1.
@@ -843,9 +843,9 @@ print(matrix,'\n')
 print(classification_report(test_y_fast, y_pred)) 
 ```
 
-<img src="picture/v1.png">
+<img src="picture/v1.PNG">
 
-<img src="picture/v2.png">
+<img src="picture/v2.PNG">
 
 ## Putting all together
 
